@@ -1,0 +1,89 @@
+body {
+    background-color: peachpuff;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+p {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.paragraph-container {
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.button-section {
+    margin-top: 20px;
+}
+
+#myButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#myButton.disabled {
+    pointer-events: none; /* Disable button clicks */
+    opacity: 0.5; /* Reduce button opacity */
+}
+
+
